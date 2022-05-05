@@ -1,4 +1,3 @@
-# tarea01-FP-
 #Declarar Variables
 edad:int
 mensaje:str

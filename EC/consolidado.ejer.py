@@ -1,4 +1,4 @@
-# tarea01-FP-
+defejerciciounoDMP():
 #Declarar Variables
 edad:int
 mensaje:str
