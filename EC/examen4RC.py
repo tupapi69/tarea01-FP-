@@ -1,7 +1,7 @@
 import os, sys
 
-edad = int (input ('Ingresa el valor de edad: '))
-print ('Selecciona el valor de sexo.')
+edad = int (input ('escribir el valor de edad: '))
+print ('seleccione el valor de sexo.')
 print ('\t1.- mujer')
 print ('\t2.- hombre')
 sys.stdout.write ('\t')
