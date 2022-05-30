@@ -6,14 +6,18 @@ import java.util.Scanner;
 public class TareaRC1 {
 
     public static void main(String[] args) {
-        int n=0;
-        Scanner in=new Scanner(System.in);
-        n=in.nextInt();
-        for (int i = 0; i < n; i++) {//Filas
-            for (int j = 0; j < n; j++) {//columnas
-                System.out.print("*");
-         }
-         System.out.println("");
-    }
-}
+		int numero;
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Ingrese un número:");
+
+		try {
+			numero = entrada.nextInt();
+			while ((numero % 10) != 0) {
+				numero++;
+			}
+			System.out.println("La decena superior es: " + numero);
+		} catch (Exception e) {
+			System.out.println("Número no válido");
+		}
+	}
 }
