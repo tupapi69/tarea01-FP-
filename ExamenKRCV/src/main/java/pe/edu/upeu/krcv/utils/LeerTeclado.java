@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package pe.edu.upeu.krcv;
 
 import java.io.BufferedReader;
@@ -63,3 +64,8 @@ public class LeerTeclado {
     }
 
 }
+=======
+public class LeerTeclado {
+    
+}
+>>>>>>> 80aebd0de8885053c97409cfed77df99930cdf89
