@@ -26,4 +26,3 @@ public class ejercicio3
   menoredad=edad3
   menorpersona=nombre3
     System.out.println("la menor edad es:"+" "+menor edad);     
-       
